@@ -5,7 +5,8 @@ import Create from './components/Create';
 import BlogDetails from './components/BlogDetails';
 import NotFound from './components/NotFound';
 import About from './components/About';
-
+//To run this project make sure to start the json server using the following command in npm
+//  npx json-server --watch data/db.json --port 8000
 function App() {
   return (
     <Router>    
